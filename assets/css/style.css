@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+:focus,:active {
+  outline: none;
+}
+
+a:focus,a:active {
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+a, a:visited{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+
+header{
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mts-logo{
+    margin: 20px 8px 20px 40px;
+}
+
+.mts-logo-text{
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0px;
+    width: 475px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #9E9E9E;
+}
+
+.image-search{
+    padding: 11px 0px 11px 20px;
+}
+
+.input-search{
+    height: 99%;
+    width: 88%;
+    padding-left: 10px;
+}
+
+
+.right-Panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 40px 50px 0px;
+    
+}
+
+.costyle{
+    padding: 0px 15px 0px 0px;
+    height: 55px;
+    width: 55px;
+}
+
+.login-button{
+    width: 166px;
+    background-color: red;
+    padding: 5px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+#login-href{
+    color: #fff;
+}
+
+
+
+
+.bar-Panel{
+    /* height: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.items-panels{
+    padding: 0px 0px 0px 40px;
+    height: 44px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-href{
+    padding: 10px 20px 10px 20px;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E8E8;
+    border-radius: 14px;
+    height: 30px;
+    color: #797979;
+    /* margin: 0px 20px 0px 0px; */
+}
+
+#item-href1{
+    margin: 0px 20px 10px 10px;
+}
+
+.section--holder{
+    display: flex;
+    justify-content: center;
+}
+    .image-block{
+    background-image: url("/assets/images/Rectangle\ 1.png") ;
+    height: 495px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    color: #fff;
+    font-size: 32px;
+    margin-top: -20px;
+    font-weight: 500;
+    }
+
+
+#image-block-big-text{
+    font-size: 92px;
+    text-align: left;
+}
+
+.image-block-text{
+    margin: 0px 90px;
+    text-align: left;
+}
+
+
